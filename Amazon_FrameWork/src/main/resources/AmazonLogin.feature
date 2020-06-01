@@ -16,6 +16,6 @@ Scenario Outline: Successful Login with Valid Credentials
 	
 	Examples:
 		|userName				|password	|
-		|dutta1deb@gmail.com	|amazon2018	|
-		|dutta1deb@gmail.com	|amazon		|	
-		|dutta1deb@gmail.com	|2011amazon	|
+		|mohmukit@gmail.com	|Shamollik123	|
+		|akijamukity@gmail.com	|Akija123		|	
+		|mohmukit7@gmail.com	|2011amazon	|

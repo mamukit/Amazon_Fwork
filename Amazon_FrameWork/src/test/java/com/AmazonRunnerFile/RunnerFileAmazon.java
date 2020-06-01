@@ -11,7 +11,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 @CucumberOptions(plugin = { "pretty", "html:target", "json:target/cucumber.json",
 		"com.cucumber.listener.ExtentCucumberFormatter:target/Cucumber_Extents_report.html" },
 
-		features = { "src\\main\\resources\\FindLaptopAndPayment.feature" }, 
+		features = {"src\\main\\resources\\FindiPhoneData.feature" }, 
 		glue = { "com.AmazonStepDef" },
 
 		monochrome = true, dryRun = false)

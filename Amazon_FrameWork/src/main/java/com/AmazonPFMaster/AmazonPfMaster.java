@@ -19,12 +19,12 @@ public class AmazonPfMaster {
 	@FindBy(xpath = "//*[contains(@id,'signInSubmit')]")
 	private WebElement SignInTab;
 
-	@FindBy(xpath = "//*[contains(text(),'Hi, Sukanta')]")
+	@FindBy(xpath = "//*[contains(text(),'Hi, Akija')]")
 	private WebElement AmazonLoginTest;
 
 	private String URL = "https://www.amazon.com/";
-	private String username = "dutta1deb@gmail.com";
-	private String password = "amazon2018";
+	private String username = "akijamukit@gmail.com";
+	private String password = "Akija123";
 	
 	@FindBy(xpath = "//*[contains(@id,'twotabsearchtextbox')]")
 	private WebElement SearchBox;
